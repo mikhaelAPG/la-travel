@@ -1,0 +1,13 @@
+Petunjuk awal project setelah clone.
+Folder vendor dan file .env tidak ikut terbawa, jadi, ketika selesai clone project:
+-buka termindal dengan directory lokasi dari project, lalu ketik -> composer install
+-copy file .env.example dan ubah nama menjadi .env, lalu edit:
+	-Line 1: APP NAME = La-Travel
+	-Line 12: DB DATABASE = La-Travel
+-ketikkan perintah -> php artisan key:generate
+-buat database di dbms mysql, dengan nama La-Travel
+-Terakhir, ketikkan php artisan migrate
+-siap mengelola project
+
+Nama Model: Visitor dan Content
+Nama Table: Vistiors dan Contents
